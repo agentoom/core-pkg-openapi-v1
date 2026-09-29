@@ -1,0 +1,27 @@
+<?php
+
+return [
+    'index_title' => 'API-Schlüssel',
+    'index_description' => 'Schlüssel für die OpenAI-kompatible API (v1). Jeder Schlüssel ist der Nachvollziehbarkeit halber einem Benutzer zugeordnet.',
+    'create_title' => 'API-Schlüssel erstellen',
+    'edit_title' => 'API-Schlüssel bearbeiten',
+    'owner' => 'Besitzer',
+    'select_owner' => 'Benutzer auswählen',
+    'token' => 'Token',
+    'last_used' => 'Zuletzt verwendet',
+    'never_used' => 'Nie',
+    'allowed_domains' => 'Erlaubte Domains / IPs',
+    'allowed_domains_help' => 'Komma- oder zeilengetrennte Liste von Domains oder IPs, die diesen Schlüssel verwenden dürfen (z.B. beispiel.de, *.beispiel.de, 192.168.1.1, 10.0.0.*). Leer lassen, um alle zu erlauben.',
+    'generated_title' => 'API-Schlüssel erstellt',
+    'regenerated_title' => 'Neuer API-Schlüssel generiert',
+    'generated_help' => 'Kopieren Sie Ihren API-Schlüssel jetzt. Aus Sicherheitsgründen wird er nicht mehr angezeigt.',
+    'copy' => 'Kopieren',
+    'copied' => 'Kopiert!',
+    'done' => 'Fertig',
+    'danger_zone' => 'Gefahrenzone',
+    'regenerate' => 'Token neu generieren',
+    'regenerate_help' => 'Eine Neugenerierung ersetzt den aktuellen Schlüssel. Anwendungen mit dem alten Schlüssel funktionieren sofort nicht mehr.',
+    'created_success' => 'API-Schlüssel erfolgreich erstellt.',
+    'updated_success' => 'API-Schlüssel erfolgreich aktualisiert.',
+    'deleted_success' => 'API-Schlüssel erfolgreich gelöscht.',
+];

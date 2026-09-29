@@ -1,0 +1,27 @@
+<?php
+
+return [
+    'index_title' => 'Clés API',
+    'index_description' => 'Clés pour l\'API compatible OpenAI (v1). Chaque clé est liée à un utilisateur pour la traçabilité.',
+    'create_title' => 'Créer une clé API',
+    'edit_title' => 'Modifier la clé API',
+    'owner' => 'Propriétaire',
+    'select_owner' => 'Sélectionner un utilisateur',
+    'token' => 'Jeton',
+    'last_used' => 'Dernière utilisation',
+    'never_used' => 'Jamais',
+    'allowed_domains' => 'Domaines / IPs autorisés',
+    'allowed_domains_help' => 'Liste de domaines ou d\'IPs séparés par des virgules ou des sauts de ligne autorisés à utiliser cette clé (ex. exemple.com, *.exemple.com, 192.168.1.1, 10.0.0.*). Laissez vide pour tout autoriser.',
+    'generated_title' => 'Clé API créée',
+    'regenerated_title' => 'Nouvelle clé API générée',
+    'generated_help' => 'Copiez votre clé API maintenant. Pour des raisons de sécurité, elle ne sera plus affichée.',
+    'copy' => 'Copier',
+    'copied' => 'Copié !',
+    'done' => 'Terminé',
+    'danger_zone' => 'Zone de danger',
+    'regenerate' => 'Régénérer le jeton',
+    'regenerate_help' => 'La régénération remplace la clé actuelle. Les applications utilisant l\'ancienne clé cesseront de fonctionner immédiatement.',
+    'created_success' => 'Clé API créée avec succès.',
+    'updated_success' => 'Clé API mise à jour avec succès.',
+    'deleted_success' => 'Clé API supprimée avec succès.',
+];

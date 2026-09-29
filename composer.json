@@ -1,0 +1,24 @@
+{
+    "name": "agentoom/core-openapi-v1",
+    "description": "OpenAI-compatible API v1 adapter for Agentoom",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Agentoom\\OpenApiV1\\": "src/",
+            "Agentoom\\OpenApiV1\\Database\\Factories\\": "database/factories/"
+        }
+    },
+    "require": {
+        "php": "^8.4",
+        "laravel/framework": "*",
+        "agentoom/core-main": "*@dev"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Agentoom\\OpenApiV1\\OpenApiV1ServiceProvider"
+            ]
+        }
+    }
+}

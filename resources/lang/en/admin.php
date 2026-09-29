@@ -1,0 +1,27 @@
+<?php
+
+return [
+    'index_title' => 'API Keys',
+    'index_description' => 'Keys for the OpenAI-compatible API (v1). Each key is tied to a user for traceability.',
+    'create_title' => 'Create API Key',
+    'edit_title' => 'Edit API Key',
+    'owner' => 'Owner',
+    'select_owner' => 'Select user',
+    'token' => 'Token',
+    'last_used' => 'Last used',
+    'never_used' => 'Never',
+    'allowed_domains' => 'Allowed Domains / IPs',
+    'allowed_domains_help' => 'Comma or newline separated list of domains or IPs allowed to use this key (e.g. example.com, *.example.com, 192.168.1.1, 10.0.0.*). Leave empty to allow all.',
+    'generated_title' => 'API key created',
+    'regenerated_title' => 'New API key generated',
+    'generated_help' => 'Copy your API key now. For security reasons, it will not be shown again.',
+    'copy' => 'Copy',
+    'copied' => 'Copied!',
+    'done' => 'Done',
+    'danger_zone' => 'Danger Zone',
+    'regenerate' => 'Regenerate token',
+    'regenerate_help' => 'Regenerating replaces the current key. Applications using the old key will stop working immediately.',
+    'created_success' => 'API key created successfully.',
+    'updated_success' => 'API key updated successfully.',
+    'deleted_success' => 'API key deleted successfully.',
+];

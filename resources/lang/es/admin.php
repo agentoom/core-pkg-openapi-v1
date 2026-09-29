@@ -1,0 +1,27 @@
+<?php
+
+return [
+    'index_title' => 'Claves API',
+    'index_description' => 'Claves para la API compatible con OpenAI (v1). Cada clave está vinculada a un usuario para trazabilidad.',
+    'create_title' => 'Crear clave API',
+    'edit_title' => 'Editar clave API',
+    'owner' => 'Propietario',
+    'select_owner' => 'Seleccionar usuario',
+    'token' => 'Token',
+    'last_used' => 'Último uso',
+    'never_used' => 'Nunca',
+    'allowed_domains' => 'Dominios / IPs permitidos',
+    'allowed_domains_help' => 'Lista de dominios o IPs separados por comas o saltos de línea que pueden usar esta clave (ej. ejemplo.com, *.ejemplo.com, 192.168.1.1, 10.0.0.*). Dejar vacío para permitir todos.',
+    'generated_title' => 'Clave API creada',
+    'regenerated_title' => 'Nueva clave API generada',
+    'generated_help' => 'Copie su clave API ahora. Por seguridad, no se volverá a mostrar.',
+    'copy' => 'Copiar',
+    'copied' => '¡Copiado!',
+    'done' => 'Listo',
+    'danger_zone' => 'Zona de peligro',
+    'regenerate' => 'Regenerar token',
+    'regenerate_help' => 'Regenerar reemplaza la clave actual. Las aplicaciones que usen la clave antigua dejarán de funcionar inmediatamente.',
+    'created_success' => 'Clave API creada correctamente.',
+    'updated_success' => 'Clave API actualizada correctamente.',
+    'deleted_success' => 'Clave API eliminada correctamente.',
+];

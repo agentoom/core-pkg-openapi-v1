@@ -1,0 +1,27 @@
+<?php
+
+return [
+    'index_title' => 'Chiavi API',
+    'index_description' => 'Chiavi per l\'API compatibile con OpenAI (v1). Ogni chiave è associata a un utente per la tracciabilità.',
+    'create_title' => 'Crea chiave API',
+    'edit_title' => 'Modifica chiave API',
+    'owner' => 'Proprietario',
+    'select_owner' => 'Seleziona utente',
+    'token' => 'Token',
+    'last_used' => 'Ultimo utilizzo',
+    'never_used' => 'Mai',
+    'allowed_domains' => 'Domini / IP consentiti',
+    'allowed_domains_help' => 'Elenco separato da virgole o a capo di domini o IP che possono utilizzare questa chiave (es. esempio.it, *.esempio.it, 192.168.1.1, 10.0.0.*). Lascia vuoto per consentire tutti.',
+    'generated_title' => 'Chiave API creata',
+    'regenerated_title' => 'Nuova chiave API generata',
+    'generated_help' => 'Copia ora la tua chiave API. Per motivi di sicurezza, non verrà mostrata di nuovo.',
+    'copy' => 'Copia',
+    'copied' => 'Copiato!',
+    'done' => 'Fatto',
+    'danger_zone' => 'Zona di pericolo',
+    'regenerate' => 'Rigenera token',
+    'regenerate_help' => 'La rigenerazione sostituisce la chiave attuale. Le applicazioni che utilizzano la vecchia chiave smetteranno immediatamente di funzionare.',
+    'created_success' => 'Chiave API creata con successo.',
+    'updated_success' => 'Chiave API aggiornata con successo.',
+    'deleted_success' => 'Chiave API eliminata con successo.',
+];
