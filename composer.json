@@ -1,5 +1,6 @@
 {
     "name": "agentoom/core-openapi-v1",
+    "version": "0.8.0",
     "description": "OpenAI-compatible API v1 adapter for Agentoom",
     "type": "library",
     "license": "MIT",
